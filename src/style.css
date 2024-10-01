@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container-fluid {
+  height: 500px;
+}
+.card {
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.top-left {
+  margin-right: auto;
+}
+
+.bottom-right {
+  margin-left: auto;
+  transform: rotate(180deg);
+}
+
+.♥,
+.♦ {
+  color: red;
+}
+
+.spades,
+.clubs {
+  color: black;
+}
